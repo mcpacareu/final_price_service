@@ -12,9 +12,9 @@ Maven 3.9.1 or higher
 2. Navigate to the project directory using the following command:
 	`cd final_price_service`
 3. Build the project using Maven:
-	`mvn clean package`
+	`mvn clean install`
 4. Start the application using the following command:
-	`java -jar target/project-name-1.0.0.jarjava -jar target/project-name-1.0.0.jar`
+	`java -jar target/final-price-service-0.0.1-SNAPSHOT.jar`
 	This will start the application on port 8080 by default.
 5. To test the application, you can send a GET request to the following URL using a tool like cURL or Postman:
 	`http://localhost:8080/final-price?date=2020-06-14-15.00.00&product-id=35455&brand-id=1`
